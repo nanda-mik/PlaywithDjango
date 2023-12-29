@@ -82,6 +82,10 @@ CHANNEL_LAYERS = {
     },
 }
 
+CORS_ALLOWED_ORIGINS = [
+    "http://localhost:3000",  # or the domain where your React app is running
+]
+
 # Database
 # https://docs.djangoproject.com/en/4.2/ref/settings/#databases
 
